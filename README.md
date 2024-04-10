@@ -22,7 +22,7 @@ To set up a new terminal, run:
 To train the pose model Start training from a pretrained *.pt model, run:
 
 
-  yolo pose train data=coco8-pose.yaml model=yolov8s-pose.pt epochs=100 imgsz=640
+    yolo pose train data=coco8-pose.yaml model=yolov8s-pose.pt epochs=100 imgsz=640
 
 
 You can dynamically adjust parameters such as epochs according to the size and complexity of the data set, or modify the data path to your own data path.
